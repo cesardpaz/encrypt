@@ -1,3 +1,48 @@
-.vscode/*.vscode/*
-node_modules
-**/.DS_Store
+# System generated files and directories
+.DS_Store
+Thumbs.db
+
+# IDE and text editor configuration files
+/.vscode
+/.idea
+*.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+*.tmproj
+*.tmproject
+
+# Dependency directories
+/vendor
+/node_modules
+
+# Log files
+logs
+*.log
+
+# Cache files
+/cache
+/tmp
+
+# Session files
+/sessions
+
+# Compiled and minified files
+*.min.*
+*.map
+
+# Project-specific configuration files
+.env
+.env.*
+config.php
+config.local.php
+config.dev.php
+config.prod.php
+
+# Database files
+*.sql
+*.sqlite
+
+# Composer generated directories
+/composer.phar
+/composer.lock
